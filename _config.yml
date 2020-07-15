@@ -90,9 +90,6 @@ style:
   #   codeblock: '#555' # Codeblock color
   #   p: '#ccc' # Paragraph color
 
-
-
-
 ############################### Layout ###############################
 cover:
   scheme: docs # docs, blog
@@ -185,7 +182,8 @@ layout:
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
-    article_footer: [references, related_repos, copyright, donate]
+    #article_footer: [references, related_repos, copyright, donate]
+    article_footer: [references, related_repos]
   # 其他的页面布局暂时等于 on_list
 
 
@@ -198,17 +196,17 @@ meta:
     # 【文章信息作者头像】
     avatar: https://s1.ax1x.com/2020/07/16/U0Wqsg.jpg
     name: Sparken
-    url: https://xaoxuu.com
+    url: https://lokisparken.github.io/
   # 文章创建日期
   date:
     icon: fas fa-clock
     title: '发布于：'
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章更新日期
-  updated:
-    icon: fas fa-edit
-    title: '更新于：'
-    format: 'll' # 日期格式 http://momentjs.com/docs/
+  #updated:
+    #icon: fas fa-edit
+    #title: '更新于：'
+    #format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章分类
   category:
     icon: fas fa-folder-open
@@ -230,13 +228,13 @@ meta:
   tags:
     icon: fas fa-hashtag
   # 分享
-  share:
-    - id: qq
-      img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png
-    - id: qzone
-      img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png
-    - id: weibo
-      img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
+  #share:
+    #- id: qq
+      #img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png
+    #- id: qzone
+      #img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png
+    #- id: weibo
+      #img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
     # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
     #   img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png
     # - id: telegram
