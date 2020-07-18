@@ -194,7 +194,7 @@ meta:
   # 默认文章作者（可在front-matter中覆盖）
   author:
     # 【文章信息作者头像】
-    avatar: https://s1.ax1x.com/2020/07/16/U0Wqsg.jpg
+    avatar: https://cdn.jsdelivr.net/gh/LokiSparken/CDN-for-blog@1.0/images/kitty.png
     name: Sparken
     url: https://lokisparken.github.io/
   # 文章创建日期
@@ -279,7 +279,7 @@ widget:
     class: blogger
     display: [desktop, mobile] # [desktop, mobile]
     # 【右侧边栏】
-    avatar: https://s1.ax1x.com/2020/07/16/U0Wqsg.jpg
+    avatar: https://cdn.jsdelivr.net/gh/LokiSparken/CDN-for-blog@1.0/images/kitty.png
     shape: rectangle # circle, rectangle
     url: /about/
     title: 
